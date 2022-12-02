@@ -1,0 +1,14 @@
+<ul *ngFor="let estudiante of estudiantes">
+  <li>
+    {{ estudiante.firstName }}
+  </li>
+  <li>
+    {{ estudiante.lastName }}
+  </li>
+  <li [ngClass]="{ red: estudiante.age > 27 }">
+    {{ estudiante.age }}
+  </li>
+  <li>
+    {{ estudiante.createAt | date }}
+  </li>
+</ul>
