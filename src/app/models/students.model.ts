@@ -1,4 +1,4 @@
-export class estudiante {
+  export class estudiante {
   firstName: string;
   lastName: string;
   createAt: Date;
