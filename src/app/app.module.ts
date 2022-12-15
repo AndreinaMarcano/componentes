@@ -7,14 +7,17 @@ import { LandingModule } from './pages/landing/landing.module';
 import { FooterModule } from './components/footer/footer.module';
 import { BodyModule } from './components/body/body.module';
 import { ListaEstudianteComponent } from './components/lista-estudiante/lista-estudiante.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './components/forms/forms.component';
-import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ListaEstudianteComponent,
     FormsComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -22,8 +25,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeaderModule,
     BodyModule,
     FooterModule,
-    ReactiveFormsModule
-    
+    ReactiveFormsModule,
+    FormsModule
     
 
   ],
