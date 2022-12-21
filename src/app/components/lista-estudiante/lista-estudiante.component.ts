@@ -8,8 +8,9 @@ import{ estudiante } from '../../models/students.model'
 })
 export class ListaEstudianteComponent {
 estudiantes:estudiante[]= [
-  new estudiante('andreina','marcano',new Date(),27),
-  new estudiante('andreina2','marcano2',new Date(),29)
+  new estudiante(1,'andre','marcano',27),
+  new estudiante(2,'sandra','martinez',28),
+  new estudiante(3,'alonso','cordoba',29)
   
 ]
 }

@@ -1,7 +1,8 @@
 /* Style the navbar */
 #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(179, 40, 167);
+    
   }
   
  
@@ -29,3 +30,7 @@
   .sticky + .content {
     padding-top: 60px;
   }
+
+
+  
+
