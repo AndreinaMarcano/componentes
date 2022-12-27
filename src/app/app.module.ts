@@ -9,8 +9,8 @@ import { BodyModule } from './components/body/body.module';
 import { ListaEstudianteComponent } from './components/lista-estudiante/lista-estudiante.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormsComponent } from './components/forms/forms.component';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './module/material/material.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,9 @@ import { FormsComponent } from './components/forms/forms.component';
     BodyModule,
     FooterModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MaterialModule
     
 
   ],
